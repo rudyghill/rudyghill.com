@@ -6,4 +6,4 @@ draft: false
 
 Liberapay: [https://liberapay.com/rudyghill](https://liberapay.com/rudyghill)
 
-Monero: Coming Soon
+Monero: ``49HMzmsiWc7CYMgJycMKHfUrQqbJ3dyVrdeFTnEDZaZabifEaJzWC6eecbUYRxQdcEKEgDZhzHDgrgZ7Qv8818wrHeS3X9m``

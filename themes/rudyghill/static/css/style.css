@@ -42,3 +42,8 @@ blockquote{
   padding: 5px;
   margin: 10px;
 }
+
+code {
+  word-break: break-all;
+	white-space: normal;
+}
