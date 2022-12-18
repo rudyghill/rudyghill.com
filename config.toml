@@ -1,0 +1,7 @@
+baseURL = 'https://rudyghill.com/'
+languageCode = 'en-us'
+title = 'Rudy G. Hill'
+theme = "rudyghill"
+
+[params]
+    favicon="/favicon.ico"

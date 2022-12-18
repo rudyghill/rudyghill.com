@@ -1,0 +1,30 @@
+{{- define "main"}}
+<main>
+  <div class="container">
+  <h2>Welcome!</h2>
+  <p>My name is Rudy Hill and I'm known for being:</p>
+  <ul>
+    <li>a computer engineer</li>
+    <li>someone who makes educational videos on <a href="https://www.youtube.com/c/rudyhill">Youtube</a>.</li>
+    <li>a gamer</li>
+  </ul>
+  </div>
+
+  <div class="container">
+  <h2>About this site</h2>
+  <p>This is my personal landing page for professional inquiries and educational content. Not intended as a personal social page.</p>
+
+  <h3><a href="/resume">Resume</a></h3>
+  <p>Web copy of my resume.</p>
+
+  <h3><a href="/articles">Articles</a></h3>
+  <p>Long form essays and reports</p>
+
+  <h3><a href="/posts">Posts</a></h3>
+  <p>Short form posts. Kind of like Tweets.</p>
+  </div>
+
+  {{- partial "quotes.html" . -}}
+
+</main>   
+{{- end }}

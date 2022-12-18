@@ -1,0 +1,19 @@
+{{ define "main"}}
+<main>
+    <div class="container">
+      <h1>{{ .Title }}</h1>
+    </div>
+    <div class="container">
+        <p>{{ .Content }}</p>
+        <p>{{ .Date.Format "Monday Jan 2, 2006" }}</p>
+    </div>
+    <div class="container">
+        {{ with .NextInSection }}
+          <p> Next: <a class="next" href="{{.Permalink}}"> {{.Title}}</a></p>
+        {{ end }}
+        {{ with .PrevInSection }}
+          <p>Prev: <a class="previous" href="{{.Permalink}}"> {{.Title}}</a></p>
+        {{ end }}
+    </div>
+</main>
+{{ end }}

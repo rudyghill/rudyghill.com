@@ -1,0 +1,11 @@
+{{ with .Site.GetPage "Quotes"}}
+    <div class="container">
+        <h2>Quotes</h2>
+        <p>These are just some quotes I like.</p>
+        {{ range .Pages.ByDate.Reverse }}
+            <blockquote>
+                <p>{{ .Content }}</p>
+            </blockquote>
+        {{ end }}
+    </div>
+{{ end }}

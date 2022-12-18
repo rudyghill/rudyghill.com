@@ -1,0 +1,13 @@
+{{ define "main"}}
+<main>
+    <div class="container">
+        <h2>Topics</h2>
+        {{ range .Site.Taxonomies.tags }}
+            <a href="{{ .Page.Permalink }}">{{ .Page.Title }} ({{ .Count }})</a> 
+        {{ end }}
+    </div>
+    {{ range .Pages.ByDate.Reverse }}
+        {{ .Render "summary" }}
+    {{ end }}
+</main>
+{{ end }}

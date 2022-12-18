@@ -1,0 +1,7 @@
+#!/bin/sh
+HOST=website
+DIR=/var/www/website
+hugo && rsync -avz --delete public/ ${HOST}:${DIR}
+# rsync -avz --delete public/ website:/var/www/website/
+
+exit 0
