@@ -1,4 +1,4 @@
-baseURL = '/'
+baseURL = 'https://rudyghill.github.io/rudyghill.com/'
 languageCode = 'en-us'
 title = 'Rudy G. Hill'
 theme = "rudyghill"
